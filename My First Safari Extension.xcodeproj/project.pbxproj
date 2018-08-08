@@ -400,7 +400,7 @@
 				CODE_SIGN_ENTITLEMENTS = "My First Safari Extension/My_First_Safari_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BKU5H4GUNQ;
+				DEVELOPMENT_TEAM = 6H4HRTU5E3;
 				INFOPLIST_FILE = "My First Safari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevenf.My-First-Safari-Extension";
@@ -415,7 +415,7 @@
 				CODE_SIGN_ENTITLEMENTS = "My First Safari Extension/My_First_Safari_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = BKU5H4GUNQ;
+				DEVELOPMENT_TEAM = 6H4HRTU5E3;
 				INFOPLIST_FILE = "My First Safari Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevenf.My-First-Safari-Extension";
@@ -428,7 +428,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "The Actual Extension/The_Actual_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKU5H4GUNQ;
+				DEVELOPMENT_TEAM = 6H4HRTU5E3;
 				INFOPLIST_FILE = "The Actual Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevenf.My-First-Safari-Extension.The-Actual-Extension";
@@ -442,7 +442,7 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "The Actual Extension/The_Actual_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BKU5H4GUNQ;
+				DEVELOPMENT_TEAM = 6H4HRTU5E3;
 				INFOPLIST_FILE = "The Actual Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @executable_path/../../../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.stevenf.My-First-Safari-Extension.The-Actual-Extension";
