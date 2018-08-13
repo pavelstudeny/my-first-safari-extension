@@ -18,8 +18,12 @@ When you make changes to the extension, it may sometimes require some combinatio
 2. Navigate to an HTTPS page
 
 Result: depending on Content Security Policy, the iframe is blocked with either
-{code}[blocked] The page at about:blank was not allowed to display insecure content from safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html.{code}
+```
+[blocked] The page at about:blank was not allowed to display insecure content from safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html.
+```
 or
-{code}[Error] Refused to load safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html because it appears in neither the child-src directive nor the default-src directive of the Content Security Policy.{code}
+```
+[Error] Refused to load safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html because it appears in neither the child-src directive nor the default-src directive of the Content Security Policy.
+```
 
 Expected: iframe is displayed as in 1.
