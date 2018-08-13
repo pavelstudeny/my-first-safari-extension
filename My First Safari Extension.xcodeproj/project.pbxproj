@@ -19,6 +19,7 @@
 		F135B2AD1FFFE49F009F04C6 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = F135B2AC1FFFE49F009F04C6 /* ToolbarItemIcon.pdf */; };
 		F135B2B11FFFE49F009F04C6 /* The Actual Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F135B29B1FFFE49F009F04C6 /* The Actual Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		FD3327E421219BD3004447E0 /* dialog.html in Resources */ = {isa = PBXBuildFile; fileRef = FD3327E321219BD3004447E0 /* dialog.html */; };
+		FD3327E62121A75C004447E0 /* icon32.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3327E52121A75C004447E0 /* icon32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		F135B2AC1FFFE49F009F04C6 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
 		F135B2AE1FFFE49F009F04C6 /* The_Actual_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = The_Actual_Extension.entitlements; sourceTree = "<group>"; };
 		FD3327E321219BD3004447E0 /* dialog.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = dialog.html; sourceTree = "<group>"; };
+		FD3327E52121A75C004447E0 /* icon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 		F135B29F1FFFE49F009F04C6 /* The Actual Extension */ = {
 			isa = PBXGroup;
 			children = (
+				FD3327E52121A75C004447E0 /* icon32.png */,
 				F135B2A01FFFE49F009F04C6 /* SafariExtensionHandler.h */,
 				F135B2A11FFFE49F009F04C6 /* SafariExtensionHandler.m */,
 				F135B2A31FFFE49F009F04C6 /* SafariExtensionViewController.h */,
@@ -240,6 +243,7 @@
 				F135B2A81FFFE49F009F04C6 /* SafariExtensionViewController.xib in Resources */,
 				FD3327E421219BD3004447E0 /* dialog.html in Resources */,
 				F135B2AB1FFFE49F009F04C6 /* script.js in Resources */,
+				FD3327E62121A75C004447E0 /* icon32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
