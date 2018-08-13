@@ -13,9 +13,13 @@ When you make changes to the extension, it may sometimes require some combinatio
 
 ## What it shows
 
-Open JS console. Navigate to http://htmlpreview.github.io/?https://github.com/avast/topee/blob/master/api.html.
-The page changes its body by the parameter.
+1. Navigate to an HTTP page - the extension injects an iframe that is displayed correctly.
 
-Result: script.js is injected twice, as demonstrated by console.log()s
+2. Navigate to an HTTPS page
 
-Expected: script.js is injected once.
+Result: depending on Content Security Policy, the iframe is blocked with either
+{code}[blocked] The page at about:blank was not allowed to display insecure content from safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html.{code}
+or
+{code}[Error] Refused to load safari-extension://com.stevenf.My-First-Safari-Extension.The-Actual-Extension-6H4HRTU5E3/2b8f7871/dialog.html because it appears in neither the child-src directive nor the default-src directive of the Content Security Policy.{code}
+
+Expected: iframe is displayed as in 1.
